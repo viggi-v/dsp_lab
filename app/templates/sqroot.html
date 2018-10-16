@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Finding Square Root{% endblock %}
+{% block body %}
+<div class="jumbotron">
+  <h1>Finding Square Root</h1>
+</div>
+<h2>Question:</h2>
+Enter a number and we will find the square root of that number
+<br>
+<textarea id="answer" placeholder="Enter your response"></textarea>
+<br>
+<button id="sendReq">Send</button>
+<br>
+Server responded with:
+<div id="response"></div>
+{% endblock %}
